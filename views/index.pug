@@ -1,0 +1,10 @@
+extends layout
+
+block head
+  link(rel="icon" type="image/x-icon" href="/favicon.ico")
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p
+    a(href="/users/1") go to user 1
